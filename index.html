@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Proyecto final</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="proyecto.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <div class="navbarra1">
+        <a class="navbarra-logo" href="#">
+          <img src="codoacodo.png" alt="Logo" width="80" height="37">
+          Conf Bs As
+        </a>
+    </div>
+    <div class="navbarra">
+      <ul class="listas">
+        <li>
+          <a href="#">La conferencia</a>
+        </li>
+        <li>
+          <a href="#">Los oradores</a>
+        </li>
+        <li>
+          <a href="#">El lugar y la fecha</a>
+        </li>
+        <li>
+          <a href="#">Conviértete en orador</a>
+        </li>
+        <li class="ultimo">
+          <a href="#">Comprar tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div class="contenedor">
+  <img src="fondo1.jpg" />
+  <div class="texto-encima">Conf Bs As</div>
+  <div class="centrado">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</div>
+  <div class="botonesimg">
+    <input  class="trans" type="button" value="Quiero ser orador">
+    <input class="verde" type="button" value="Comprar tickets">
+  </div>
+</div>
+
+<div class="caja2">
+  <div class="textarr">
+    <p class="textpeq">CONOCE A LOS</p>
+    <p class="textgrande">ORADORES</p>
+  </div>
+  <div class="oradores">
+    <div class="orador">
+      <div class="foto">
+        <img src="steve.png" alt="Steve">
+      </div>
+      <div class="descripcion">
+        <div class="botones">
+          <a href="descripcion/descJs.html" class="linkAmarillo">JavaScript</a>
+          <a href="descripcion/descReact.html" class="linkCeleste">React</a>
+        </div>
+        <div class="titulo">
+          Steve Jobs
+        </div>
+        <div class="texto">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, beatae! Corporis magnam rerum optio, similique quia reiciendis, commodi doloribus incidunt praesentium mollitia cupiditate facere autem totam necessitatibus, sed in amet!
+        </div>
+      </div>
+    </div>
+
+    <div class="orador">
+      <div class="foto">
+        <img src="bill.png" alt="Bill">
+      </div>
+      <div class="descripcion">
+        <div class="botones">
+          <a href="descripcion/descJs.html" class="linkAmarillo">JavaScript</a>
+          <a href="descripcion/descReact.html" class="linkCeleste">React</a>
+        </div>
+        <div class="titulo">
+          Bill Gates
+        </div>
+        <div class="texto">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, beatae! Corporis magnam rerum optio, similique quia reiciendis, commodi doloribus incidunt praesentium mollitia cupiditate facere autem totam necessitatibus, sed in amet!
+        </div>
+      </div>
+    </div>
+
+    <div class="orador">
+      <div class="foto">
+        <img src="ada.png" alt="Ada">
+      </div>
+      <div class="descripcion">
+        <div class="botones">
+          <a href="descripcion/descJs.html" class="linkNegro">Negocios</a>
+          <a href="descripcion/descReact.html" class="linkRojo">Startups</a>
+        </div>
+        <div class="titulo">
+          Ada Lovelace
+        </div>
+        <div class="texto">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, beatae! Corporis magnam rerum optio, similique quia reiciendis, commodi doloribus incidunt praesentium mollitia cupiditate facere autem totam necessitatibus, sed in amet!
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="caja3">
+  <div class="imagenizq">
+    <img src="fondo2.jpg">
+  </div>
+  <div class="contenedor2">
+  <div class="titleder">Bs As - Octubre</div>
+  <div class="textder">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</div>
+  <div class="botonder">
+    <input type="button" value="Conocé más">
+  </div>
+  </div>
+</div>
+
+<div class="caja4">
+  <div class="textarr">
+    <p class="textpeq2">CONVIÉRTETE EN UN</p>
+    <p class="textgrande2">ORADOR</p>
+    <p class="descripcion2">Anótate como orador para dar una <a href="#">charla ignite</a>. Cuéntanos de qué quieres hablar!</p>
+  </div>
+  <form method="get" action="#">
+    <div class="form">
+      <input type="text" name="nombre" placeholder="Nombre">
+      <input type="text" name="apellido" placeholder="Apellido">
+      <textarea placeholder="Sobre qué quieres hablar?"></textarea>
+      <input class="sinborder" type="text" name="sinborder" placeholder="Recuerda incluir un titulo para tu charla" disabled="disabled">
+      <input class="boton" type="button" value="Enviar">
+    </div>
+  </form>
+</div>
+
+<footer class="footer">
+  <ul class="lista2">
+    <li class="doble">
+      <a href="#">Preguntas<br> frecuentes</a>
+    </li>
+    <li>
+      <a href="#">Contáctanos</a>
+    </li>
+    <li>
+      <a href="#">Prensa</a>
+    </li>
+    <li>
+      <a href="#">Conferencias</a>
+    </li>
+    <li class="doble">
+      <a href="#">Términos y<br> condiciones</a>
+    </li>
+    <li>
+      <a href="#">Privacidad</a>
+    </li>
+    <li>
+      <a href="#">Estudiantes</a>
+    </li>
+  </ul>
+</footer>
+</body>
+</html>
